@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.head {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f01f9c;
+    color: #ffffff;
+}
+
+body {
+    background-color: #d59bb4;
+}
+
+
+/*This class formats all Heading 1 elements in the header as font size 48 pixels and displays it inline-block.*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    font-family:cursive;
+}
+
+
+
+/*This formats the anchor tags by defining the font color and removing the underline*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*This class formats the paragraphs to a 16 pixel font size*/
+p {
+    font-size: 16px;
+}
+
+
+/*This class aligns the text to the left and adds a margin to the right of 25 pixels*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*This class aligns the text to the right and adds a margin to the left of 25 pixels*/
+.float-right {
+    float: right;
+    margin-left: 50px;
+    padding: 50px;
+}
+
+/*This class formats the images in the benefit-cost section by defining a display of block, a margin of 10 pixels on the top and bottom, and a maximum width of 150 pixels*/
+.body img {
+    display: block;
+    margin: 10px ;
+    max-width: 150px;
+}
+
+
+
+/*This class formats the footer section by defining a padding of 30 pixels, a font family, and aligns the text in the center*/
+.footer {
+    padding: 50px;
+    font-size: 25px;
+    background-color: #f01f9c;
+    font-family: cursive;
+    text-align: center;
+}
+
+.footer p {
+    color: #ffffff;
+}
