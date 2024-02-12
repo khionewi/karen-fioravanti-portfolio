@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 .head {
@@ -16,6 +17,13 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #f01f9c;
     color: #ffffff;
+}
+
+nav a {
+    display: inline-block;
+   float: right;
+    color: #ffffff;
+    padding: 20px;
 }
 
 body {
@@ -34,12 +42,13 @@ body {
 
 /*This formats the anchor tags by defining the font color and removing the underline*/
 a {
-    color: #ffffff;
+    color:rgb(182, 47, 125);
     text-decoration: none;
 }
 
 /*This class formats the paragraphs to a 16 pixel font size*/
 p {
+    display: inline-block;
     font-size: 16px;
 }
 
@@ -57,14 +66,50 @@ p {
     padding: 50px;
 }
 
+.text-center {
+    text-align: center;
+  }
+
 /*This class formats the images in the benefit-cost section by defining a display of block, a margin of 10 pixels on the top and bottom, and a maximum width of 150 pixels*/
-.body img {
-    display: block;
+body img {
+    display: inline-block;
     margin: 10px ;
     max-width: 150px;
+    text-align: center;
+    border: 8px solid rgb(182, 47, 125);
+    padding: 5px;  
 }
 
+section h3 {
+    color:#ffffff;
+}
 
+section {
+    width: 90%;
+    /* Sets top and bottom margin to 20px. Auto will center element */
+    margin: 20px auto;
+    border-bottom: 5px solid rgb(182, 47, 125);
+    background-color: rgb(211, 178, 196);
+    padding: 15px;
+    
+  }
+
+
+  
+    img:hover{
+        box-shadow: inset 0px 0px 8px
+   rgba(232, 102, 236, 1). 0 0 15px
+   rgba(232, 102, 236, 1);
+    }
+
+
+form {
+        /* Center the form on the page */
+        margin: 10px auto;
+        width: 500px;
+        padding: 25px;
+        border: 5px solid #f01f9c;
+        border-radius: 20px;}
 
 /*This class formats the footer section by defining a padding of 30 pixels, a font family, and aligns the text in the center*/
 .footer {
@@ -73,8 +118,13 @@ p {
     background-color: #f01f9c;
     font-family: cursive;
     text-align: center;
+    color:#ffffff;
 }
 
 .footer p {
+    color: #ffffff;
+}
+
+.footer a {
     color: #ffffff;
 }
