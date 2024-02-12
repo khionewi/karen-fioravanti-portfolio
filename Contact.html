@@ -14,16 +14,15 @@
 
 <body>
 
- <header>
+    <header class="header">
         <h1>Karen Fioravanti</h1>
-        <nav>
-            <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About_Me.html">About Me</a></li>
-            <li><a href="Web_Apps.html">Web Apps</a></li>
-            <li><a href="Art.html">Art</a></li>
-            <li><a href="Resume.html">Resume</a></li>
-            <li><a href="Contact.html">Contact</a></li>
+        <nav class="float-right">
+            <a href="index.html">Home</a>
+            <a href="About_Me.html">About Me</a>
+           <a href="Web_Apps.html">Web Apps</a>
+            <a href="Art.html">Art</a>
+            <a href="Resume.html">Resume</a>
+            <a href="Contact.html">Contact</a>
             </ul>
         </nav>
     </header>
@@ -34,13 +33,35 @@
  <main>
     <section id="contact">
         <a href="Pages/Contact.html"><h2>Contact</h2></a>
-        <p>Feel free to contact me at </p> <a href="mailto: khionewi@gmail.com"></a>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
-                </form>
+        <p>Feel free to contact me at  <a href="mailto: khionewi@gmail.com" alt="khionewi@gmail.com">Khionewi@gmail.com</a> or fill out the form below.</p>
+        <br>
+        <br>
 
-    </section>
+                    <h2 class="text-center">Contact Me</h2>
+                    <form>
+                      <ul>
+                        <li>
+                          <label class="text-right" for="name">Name:</label>
+                          <input type="text" id="name" name="user-name">
+                        </li>
+                        <li>
+                          <label class="text-right" for="email">Email:</label>
+                          <input type="text" id="email" name="user-email">
+                        </li>
+                        <li>
+                            <label class="text-right" for="message">Message</label>
+                            <input type="text-area" id="message" name="message"> 
+                        </li>
+                      </ul>
+<br>
+
+                      <div class="text-center">
+                        <padding: 10px;>
+                        <button type="submit">SEND</button>
+                      </div>
+                    </form>
+                  
+                </section>
 </main>
 
 <footer class="footer">
