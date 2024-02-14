@@ -18,6 +18,7 @@ Credits
  I relied on knowledge from previous coursework (I hold a certificate in HTML/CSS from Anne Arundel Community College) as well as the coursework for the UCONN bootcamp weeks 1 & 2. All photos are owned by me, and therefore are copyrighted under the Art by Khionewi name. (I gave myself the permission to use them.)
 
 The following websites were referenced:
+https://developer.mozilla.org/en-US/docs/Web/CSS/:hover
 
 
 

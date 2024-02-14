@@ -1,3 +1,4 @@
+/* These are the universal styles for the website. */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,6 +6,7 @@
     
 }
 
+/*This class formats the head of the page */
 .head {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -12,6 +14,7 @@
     color: #ffffff;
 }
 
+/*This class formats the header of the page */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,6 +22,7 @@
     color: #ffffff;
 }
 
+/* This class formats the links in the nav bar. */
 nav a {
     display: inline-block;
    float: right;
@@ -26,6 +30,7 @@ nav a {
     padding: 20px;
 }
 
+/*This class formates the background color of the body */
 body {
     background-color: #d59bb4;
 }
@@ -66,6 +71,7 @@ p {
     padding: 50px;
 }
 
+/*This class creates a centering attribute for the text*/
 .text-center {
     text-align: center;
   }
@@ -80,13 +86,14 @@ body img {
     padding: 5px;  
 }
 
+/*This class formats the section h3 elements by defining the color as white*/
 section h3 {
     color:#ffffff;
 }
 
+/*This class formats the section*/
 section {
     width: 90%;
-    /* Sets top and bottom margin to 20px. Auto will center element */
     margin: 20px auto;
     border-bottom: 5px solid rgb(182, 47, 125);
     background-color: rgb(211, 178, 196);
@@ -95,15 +102,15 @@ section {
   }
 
 
-  
+  /*This class changes the background color of the image when the user hovers over it*/
   img:hover{
     background-color:red;
-
+    opacity: 0.5;
  }
 
 
+ /*This class formats the form*/
 form {
-        /* Center the form on the page */
         margin: 10px auto;
         width: 500px;
         padding: 25px;
@@ -120,10 +127,12 @@ form {
     color:#ffffff;
 }
 
+/*This class formats the paragraph elements in the footer*/
 .footer p {
     color: #ffffff;
 }
 
+/*This class formats the anchor tags in the footer*/
 .footer a {
     color: #ffffff;
 }
